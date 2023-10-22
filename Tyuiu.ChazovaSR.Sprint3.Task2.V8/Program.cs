@@ -38,7 +38,7 @@ namespace Tyuiu.ChazovaSR.Sprint3.Task2.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries( startValue, stopValue));
+            Console.WriteLine("Сумма ряда= " + ds.GetMultiplySeries( startValue, stopValue));
             Console.ReadKey();
         }
     }

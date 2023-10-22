@@ -12,6 +12,7 @@ namespace Tyuiu.ChazovaSR.Sprint3.Task2.V8.Lib
         public double GetMultiplySeries(int startValue, int stopValue)
         {
             double SumSeries = 1;
+
             do
             {
                 SumSeries = SumSeries * (1 / (Math.Pow((Math.Cos(5) + 1), 2)));
