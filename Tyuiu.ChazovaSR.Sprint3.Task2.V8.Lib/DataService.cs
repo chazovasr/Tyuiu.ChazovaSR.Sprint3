@@ -11,14 +11,14 @@ namespace Tyuiu.ChazovaSR.Sprint3.Task2.V8.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double SumSeries = 1;
+            double MultiplySeries = 1;
 
             do
             {
-                SumSeries = SumSeries * (1 / (Math.Pow((Math.Cos(5) + 1), 2)));
+                MultiplySeries = MultiplySeries * (1 / (Math.Pow((Math.Cos(5) + 1), 2)));
                 startValue++;
             } while (startValue <= stopValue);
-            return Math.Round(SumSeries, 3);
+            return Math.Round(MultiplySeries, 3);
         }
     }
 }
